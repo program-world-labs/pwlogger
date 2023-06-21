@@ -25,11 +25,11 @@ import (
 )
 
 func main() {
-    log := logger.NewProductionLogger("<your_project_id>")
+    log := pwlogger.NewProductionLogger("<your_project_id>")
     log.Info().Msg("This is an info message")
 
     // or for development
-    log := logger.NewDevelopmentLogger("<your_project_id>")
+    log := pwlogger.NewDevelopmentLogger("<your_project_id>")
     log.Debug().Msg("This is a debug message")
 }
 ```
