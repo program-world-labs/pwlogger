@@ -12,7 +12,7 @@ Zerolog-GCP-Integration is a module for integrating Zerolog with Google Cloud Pl
 ## Installation
 
 ```bash
-go get github.com/program-world-labs/zerolog-gcp
+go get github.com/program-world-labs/pwlogger
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Import the package into your project and use it to create a new logger:
 
 ```go
 import (
-    "github.com/program-world-labs/zerolog-gcp"
+    "github.com/program-world-labs/pwlogger"
 )
 
 func main() {

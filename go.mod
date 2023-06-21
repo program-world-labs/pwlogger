@@ -1,4 +1,4 @@
-module github.com/program-world-labs/zerolog-gcp
+module github.com/program-world-labs/pwlogger
 
 go 1.20
 
